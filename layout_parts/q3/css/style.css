@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.q3_contents {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.q3_contents th, .q3_contents td {
+  padding: 10px;
+  border: 1px solid #dedede;
+}
+
+tr:nth-child(2n) {
+  background-color: #ecf1f2;
+}
+
+.q3_contents th {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3_contents :not(th) {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.q3_contents>tbody>tr:last-child {
+  border-top: 2px dashed #000;
+}
+
 /* 回答はここに書いてね */
