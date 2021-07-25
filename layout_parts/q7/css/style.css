@@ -2,4 +2,128 @@
 
 /* 回答はここに書いてね */
 
+* {
+  font-size: 16px;
+}
+
+.text-box {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* floatのスタイル */
+.float-box {
+  float: left;
+  margin-left: 50px;
+}
+
+.float-box:first-child {
+  margin-left: 0;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* tableのスタイル */
+
+.table-boxes {
+  display: table;
+}
+
+.table-box {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.table-box:first-child {
+  padding-left: 0;
+}
+
+
+
+/* inline-blockのスタイル */
+.inline-boxes {
+  font-size: 0;
+}
+.inline-box {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.inline-box:first-child {
+  margin-left: 0;
+}
+
+/* flexのスタイル */
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+
+/* inline-boxとmarginのスタイル （ネガティブマージン未使用）*/
+/* .inline-margin-boxes {
+  font-size: 0;
+  padding: 0;
+}
+
+.inline-margin-box {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.inline-margin-box:first-child {
+  width: 300px;
+  margin-left: 0;
+}
+
+.inline-margin-box:last-child {
+  width: calc(100% - 350px);
+} */
+
+/* inline-boxとmarginのスタイル （ネガティブマージン使用）*/
+.inline-margin-boxes {
+  font-size: 0;
+  padding: 0;
+}
+
+.inline-margin-box {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.inline-margin-box:first-child {
+  width: 300px;
+}
+
+.inline-margin-box:last-child {
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */

@@ -3,7 +3,6 @@
 /* 回答はここに書いてね */
 
 .q4_content {
-  box-sizing: border-box;
   background-color: #ecf1f2;
 }
 
@@ -17,6 +16,7 @@
   display: table;
   width: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 
