@@ -13,7 +13,7 @@
   border: 1px solid #dedede;
 }
 
-tr:nth-child(2n) {
+tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
@@ -31,7 +31,7 @@ tr:nth-child(2n) {
   vertical-align: middle;
 }
 
-.q3_contents>tbody>tr:last-child {
+.q3_contents tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 

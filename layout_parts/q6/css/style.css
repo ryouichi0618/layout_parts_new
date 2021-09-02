@@ -12,11 +12,11 @@
   text-align: center;
 }
 
-.text-align-box .text {
+.align-text {
   display: inline-block;
 }
 
-.margin-box .text{
+.margin-text {
   margin: 0 auto;
 }
 
