@@ -5,6 +5,7 @@
 .q3_contents {
   table-layout: fixed;
   width: 100%;
+  vertical-align: middle;
 }
 
 .q3_contents th, .q3_contents td {
