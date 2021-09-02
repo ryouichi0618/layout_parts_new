@@ -6,12 +6,6 @@
   background-color: #ecf1f2;
 }
 
-.cell {
-  padding: 20px;
-  text-align: center;
-  display: table-cell;
-}
-
 .table {
   display: table;
   width: 100%;
@@ -19,6 +13,11 @@
   box-sizing: border-box;
 }
 
+.cell {
+  padding: 20px 0;
+  text-align: center;
+  display: table-cell;
+}
 
 .orange {
   background-color: #fdc8b8;

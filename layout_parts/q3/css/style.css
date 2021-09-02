@@ -21,12 +21,13 @@ tr:nth-child(2n) {
   color: #fff;
   font-size: 18px;
   line-height: 26px;
+  vertical-align: middle;
 }
 
-.q3_contents :not(th) {
+.q3_contents td {
   text-align: center;
   font-size: 16px;
-  line-height: 22px;
+  vertical-align: middle;
 }
 
 .q3_contents>tbody>tr:last-child {
