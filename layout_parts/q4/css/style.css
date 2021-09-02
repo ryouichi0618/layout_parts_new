@@ -4,13 +4,18 @@
 
 .q4_content {
   background-color: #ecf1f2;
+  padding: 20px;
 }
 
 .table {
   display: table;
   width: 100%;
-  padding: 20px;
   box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.table:first-child {
+  margin-top: 0;
 }
 
 .cell {
@@ -29,7 +34,7 @@
 }
 
 .blue {
-  background-color: #b6e8ed;
+  background-color: #B6D8ED;
   width: 100px;
 }
 
