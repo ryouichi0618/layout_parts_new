@@ -29,7 +29,6 @@
 .speech-ballon::after {
   bottom: -38px;
   border-top: 20px solid #fff;
-  z-index: 1;
 }
 
 .speech-text {
