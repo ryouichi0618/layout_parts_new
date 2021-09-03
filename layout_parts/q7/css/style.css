@@ -72,7 +72,6 @@
 /* inline-boxとmarginのスタイル （ネガティブマージン未使用）*/
 /* .inline-margin-boxes {
   font-size: 0;
-  padding: 0;
 }
 
 .inline-margin-box {
@@ -94,7 +93,6 @@
 /* inline-boxとmarginのスタイル （ネガティブマージン使用）*/
 .inline-margin-boxes {
   font-size: 0;
-  padding: 0;
 }
 
 .inline-margin-box {
@@ -103,27 +101,15 @@
   vertical-align: top;
 }
 
-.inline-margin-box:first-child {
+.inline-margin-left {
   width: 300px;
 }
 
-.inline-margin-box:last-child {
+.inline-margin-right {
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
   width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 回答はここに書いてね */
